@@ -1,11 +1,12 @@
 import { useEffect, useState, useRef } from "react";
 import { useSelector } from "react-redux";
-import useOnclickOutside from "react-cool-onclickoutside";
+import useOnClickOutside from "react-cool-onclickoutside";
 import Logo from "../../assets/logo.svg";
 import Link from "next/link";
 import { useRouter } from "next/router";
 import { RootState } from "../../store/index";
 import { type } from "os";
+import "../../assests/CSS/main.scss"
 
 type HeaderType = {
   isErrorPage?: boolean;
@@ -41,6 +42,18 @@ export default function Header({ isErrorPage }: HeaderType) {
       headerClass();
     };
   }, []);
+
+  const closeMenu = () => {
+    setIsMenuOpen(false);
+  }
+
+  const closeSearch = () => {
+    setSearchOpen(false);
+  }
+
+  // on click outside
+  useOnClickOutside(navRef, closeMenu);
+  useOnClickOutside(searchRef, closeSearch);
 
   return (
     <header>

@@ -13,6 +13,7 @@ specifiers:
   react-cool-onclickoutside: ^1.7.0
   react-dom: 18.2.0
   react-redux: ^8.0.5
+  sass: ^1.62.1
   tailwindcss: 3.3.2
   typescript: 5.0.4
 
@@ -23,12 +24,13 @@ dependencies:
   autoprefixer: 10.4.14_postcss@8.4.23
   eslint: 8.41.0
   eslint-config-next: 13.4.3_opaykosi7ysrbskpnffskmbrki
-  next: 13.4.3_biqbaboplfbrettd7655fr4n2y
+  next: 13.4.3_txdvpvppf2ilsh27xadmwrzlmm
   postcss: 8.4.23
   react: 18.2.0
   react-cool-onclickoutside: 1.7.0_react@18.2.0
   react-dom: 18.2.0_react@18.2.0
   react-redux: 8.0.5_lhsvdmrfrkqkmxtqosqgyd3k4i
+  sass: 1.62.1
   tailwindcss: 3.3.2
   typescript: 5.0.4
 
@@ -1480,6 +1482,10 @@ packages:
     engines: {node: '>= 4'}
     dev: false
 
+  /immutable/4.3.0:
+    resolution: {integrity: sha512-0AOCmOip+xgJwEVTQj1EfiDDOkPmuyllDuTuEX+DDXUgapLAsBIfkg3sxCYyCEA8mQqZrrxPUGjcOQ2JS3WLkg==}
+    dev: false
+
   /import-fresh/3.3.0:
     resolution: {integrity: sha512-veYYhQa+D1QBKznvhUHxb8faxlrwUnxseDAbAp457E0wLNio2bOSKnjYDhMj+YiAq61xrMGhQk9iXVk5FzgQMw==}
     engines: {node: '>=6'}
@@ -1865,7 +1871,7 @@ packages:
     resolution: {integrity: sha512-OWND8ei3VtNC9h7V60qff3SVobHr996CTwgxubgyQYEpg290h9J0buyECNNJexkFm5sOajh5G116RYA1c8ZMSw==}
     dev: false
 
-  /next/13.4.3_biqbaboplfbrettd7655fr4n2y:
+  /next/13.4.3_txdvpvppf2ilsh27xadmwrzlmm:
     resolution: {integrity: sha512-FV3pBrAAnAIfOclTvncw9dDohyeuEEXPe5KNcva91anT/rdycWbgtu3IjUj4n5yHnWK8YEPo0vrUecHmnmUNbA==}
     engines: {node: '>=16.8.0'}
     hasBin: true
@@ -1893,6 +1899,7 @@ packages:
       postcss: 8.4.14
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
+      sass: 1.62.1
       styled-jsx: 5.1.1_react@18.2.0
       zod: 3.21.4
     optionalDependencies:
@@ -2367,6 +2374,16 @@ packages:
       call-bind: 1.0.2
       get-intrinsic: 1.2.1
       is-regex: 1.1.4
+    dev: false
+
+  /sass/1.62.1:
+    resolution: {integrity: sha512-NHpxIzN29MXvWiuswfc1W3I0N8SXBd8UR26WntmDlRYf0bSADnwnOjsyMZ3lMezSlArD33Vs3YFhp7dWvL770A==}
+    engines: {node: '>=14.0.0'}
+    hasBin: true
+    dependencies:
+      chokidar: 3.5.3
+      immutable: 4.3.0
+      source-map-js: 1.0.2
     dev: false
 
   /scheduler/0.23.0:
