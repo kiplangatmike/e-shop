@@ -18,7 +18,7 @@ export default function Main ({ children, title = 'Next.js Ecommerce' }: LayoutT
         <title>{ title }</title>
       </Head>
 
-      {/* <Header /> */}
+      <Header />
 
       <main className={(pathname !== '/' ? 'main-page' : '')}>
         { children }

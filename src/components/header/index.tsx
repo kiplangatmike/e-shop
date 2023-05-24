@@ -1,7 +1,7 @@
 import { useEffect, useState, useRef } from "react";
-import { useSelector } from "react-redux";
+import { Provider, useSelector } from "react-redux";
 import useOnClickOutside from "react-cool-onclickoutside";
-import Logo from "../../assets/logo.svg";
+import Logo from "../../assests/icons/logo/index"
 import Link from "next/link";
 import { useRouter } from "next/router";
 import { RootState } from "../../store/index";
@@ -56,6 +56,7 @@ export default function Header({ isErrorPage }: HeaderType) {
   useOnClickOutside(searchRef, closeSearch);
 
   return (
+    <Provider store={}>
     <header>
       <div>
         <Link href={""}>
@@ -120,5 +121,6 @@ export default function Header({ isErrorPage }: HeaderType) {
         </div>
       </div>
     </header>
+    </Provider>
   );
 }

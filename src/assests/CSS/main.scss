@@ -4,9 +4,9 @@ body {
 }
 
 // imports styles
-@import "../partials/variables.scss";
-@import "../partials/breakpoints.scss";
-@import "../partials/reset.css";
+@import "./partials/variables.scss";
+@import "./partials/breakpoints.scss";
+@import "./partials/reset.css";
 
 // google fonts
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
