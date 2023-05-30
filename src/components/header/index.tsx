@@ -5,7 +5,7 @@ import Logo from "../../assests/icons/logo/index"
 import Link from "next/link";
 import { useRouter } from "next/router";
 import { RootState } from "../../store/index";
-import { type } from "os";
+// import { type } from "os";
 import "../../assests/CSS/main.scss"
 
 type HeaderType = {
@@ -21,8 +21,11 @@ export default function Header({ isErrorPage }: HeaderType) {
     !arrayPaths.includes(router.pathname) || isErrorPage ? false : true
   );
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+
   const [searchOpen, setSearchOpen] = useState(false);
   const navRef = useRef(null);
+
   const searchRef = useRef(null);
 
   const headerClass = () => {
@@ -56,7 +59,7 @@ export default function Header({ isErrorPage }: HeaderType) {
   useOnClickOutside(searchRef, closeSearch);
 
   return (
-    <Provider store={}>
+    <Provider store={cart}>
     <header>
       <div>
         <Link href={""}>
