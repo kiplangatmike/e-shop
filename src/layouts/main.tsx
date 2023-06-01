@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import Header from '@/components/header';
+// import Header from '@/components/header';
 import { useRouter } from 'next/navigation';
 import React from 'react';
 
@@ -18,7 +18,7 @@ export default function Main ({ children, title = 'Next.js Ecommerce' }: LayoutT
         <title>{ title }</title>
       </Head>
 
-      <Header />
+      {/* <Header /> */}
 
       <main className={(pathname !== '/' ? 'main-page' : '')}>
         { children }

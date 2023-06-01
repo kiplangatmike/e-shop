@@ -1,6 +1,6 @@
 import Head from "next/head";
 import { useRouter } from "next/router";
-import  Header from "../components/header";
+// import  Header from "../components/header";
 
 
 type LayoutType = {
@@ -17,7 +17,7 @@ export default function Layout({ children, title = "This is the default title" }
             <Head>
                 <title>Page not found: {title}</title>
             </Head>
-            <Header isErrorPage />
+            {/* <Header isErrorPage /> */}
 
             <main className={(pathname !== '/' ? 'main-page' : '')}>
                 {children}

@@ -1,23 +1,28 @@
-import Header from "@/components/header";
 import Image from "next/image";
 import Main from "@/layouts/main";
-import "../assests/CSS/main.scss";
+// import "../assests/CSS/main.scss";
 
 export default function Home() {
   return (
     <Main>
       {/* <PageIntro /> */}
 
-      <section className="featured">
-        <div className="container">
+      <section className="">
+        <div className="flex">
+          <div>helo</div>
+          <div>hello</div>
+        </div>
+
+
+        <div className="flex">
           <article
             style={{ backgroundImage: "url(/images/featured-1.jpg)" }}
-            className="featured-item featured-item-large"
+            className=""
           >
             <div className="featured-item__content">
               <h3>New arrivals are now in!</h3>
               <a href="#" className="btn btn--rounded">
-                Show Collection
+                Show Collection.
               </a>
             </div>
           </article>
