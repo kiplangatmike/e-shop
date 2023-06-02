@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Main from "@/layouts/main";
-// import "../assests/CSS/main.scss";
 
 export default function Home() {
   return (
@@ -108,7 +107,6 @@ export default function Home() {
       </section>
 
       {/* <ProductsFeatured /> */}
-      {/* <Subscribe /> */}
       {/* <Footer /> */}
     </Main>
   );
