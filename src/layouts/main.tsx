@@ -1,3 +1,4 @@
+import Header from '@/components/header/header';
 import Head from 'next/head';
 // import Header from '@/components/header';
 import { useRouter } from 'next/navigation';
@@ -18,7 +19,7 @@ export default function Main ({ children, title = 'Next.js Ecommerce' }: LayoutT
         <title>{ title }</title>
       </Head>
 
-      {/* <Header /> */}
+      <Header />
 
       <main className={''}>
         { children }

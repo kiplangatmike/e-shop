@@ -2,20 +2,12 @@ import Image from "next/image";
 import Main from "@/layouts/main";
 import 'tailwindcss/tailwind.css';
 
-
 export default function Home() {
   return (
-    <>
-     {/* <Main> */}
+    <Main>
       {/* <PageIntro /> */}
 
       <section className="">
-        <div className="flex gap-2">
-          <div className="text-lg">helo</div>
-          <div>hello</div>
-        </div>
-
-
         <div className="flex">
           <article
             style={{ backgroundImage: "url(/images/featured-1.jpg)" }}
@@ -111,7 +103,6 @@ export default function Home() {
 
       {/* <ProductsFeatured /> */}
       {/* <Footer /> */}
-    {/* </Main> */}
-    </>
+    </Main>
   );
 }
