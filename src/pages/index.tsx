@@ -4,7 +4,7 @@ import Main from "@/layouts/main";
 export default function Home() {
   return (
     <Main>
-      {/* <PageIntro /> */}
+      <PageIntro />
 
       <section className="">
         <div className="flex">
@@ -106,8 +106,8 @@ export default function Home() {
         </div>
       </section>
 
-      {/* <ProductsFeatured /> */}
-      {/* <Footer /> */}
+      <ProductsFeatured /> 
+      {/* <Footer />
     </Main>
   );
 }
