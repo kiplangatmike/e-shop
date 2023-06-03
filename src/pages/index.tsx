@@ -1,14 +1,17 @@
 import Image from "next/image";
 import Main from "@/layouts/main";
+import 'tailwindcss/tailwind.css';
+
 
 export default function Home() {
   return (
-    <Main>
-      <PageIntro />
+    <>
+     {/* <Main> */}
+      {/* <PageIntro /> */}
 
       <section className="">
-        <div className="flex">
-          <div>helo</div>
+        <div className="flex gap-2">
+          <div className="text-lg">helo</div>
           <div>hello</div>
         </div>
 
@@ -106,8 +109,9 @@ export default function Home() {
         </div>
       </section>
 
-      <ProductsFeatured /> 
-      {/* <Footer />
-    </Main>
+      {/* <ProductsFeatured /> */}
+      {/* <Footer /> */}
+    {/* </Main> */}
+    </>
   );
 }

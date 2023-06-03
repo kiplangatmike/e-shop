@@ -13,14 +13,14 @@ export default function Main ({ children, title = 'Next.js Ecommerce' }: LayoutT
   const pathname = router.pathname;
 
   return (
-    <div className="app-main">
+    <div className="">
       <Head>
         <title>{ title }</title>
       </Head>
 
       {/* <Header /> */}
 
-      <main className={(pathname !== '/' ? 'main-page' : '')}>
+      <main className={''}>
         { children }
       </main>
     </div>
