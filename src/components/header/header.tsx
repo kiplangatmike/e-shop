@@ -25,9 +25,12 @@ export default function Header() {
             <button className={``}>
               <form className={`search-form`}>
                 <i className="icon-cancel"></i>
+
+
                 <input
                   type="text"
                   name="search"
+                  
                   placeholder="Enter the product you are looking for"
                 />
               </form>
