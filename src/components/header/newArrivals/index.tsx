@@ -8,7 +8,7 @@ export default function NewArrivals() {
         <div>
           <div>
             <h2>New arrivals are now in!</h2>
-            <button>SHOW COLLECTION</button>
+            <button className="bg-white text-black px-3 py-2 rounded-xl">SHOW COLLECTION</button>
           </div>
         </div>
       </div>
@@ -19,7 +19,7 @@ export default function NewArrivals() {
         <div>
           <div>
             <h2>Basic t-shirts $29,99</h2>
-            <button>MORE DETAILS</button>
+            <button className="bg-white text-black px-3 py-2 rounded-xl">MORE DETAILS</button>
           </div>
         </div>
       </div>
@@ -30,7 +30,7 @@ export default function NewArrivals() {
         <div>
           <div>
             <h2>Sale this summer</h2>
-            <button>VIEW ALL</button>
+            <button className="bg-white text-black px-3 py-2 rounded-xl">VIEW ALL</button>
           </div>
         </div>
       </div>
