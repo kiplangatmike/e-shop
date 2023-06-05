@@ -2,11 +2,13 @@ import Image from "next/image";
 import Main from "@/layouts/main";
 import 'tailwindcss/tailwind.css';
 import PageIntro from "@/components/header/page-intro";
+import NewArrivals from "@/components/header/newArrivals";
 
 export default function Home() {
   return (
     <Main>
       <PageIntro />
+      <NewArrivals />
 
       {/* <section className="">
         <div className="flex">
