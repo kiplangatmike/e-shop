@@ -1,13 +1,14 @@
 import Image from "next/image";
 import Main from "@/layouts/main";
 import 'tailwindcss/tailwind.css';
+import PageIntro from "@/components/header/page-intro";
 
 export default function Home() {
   return (
     <Main>
-      {/* <PageIntro /> */}
+      <PageIntro />
 
-      <section className="">
+      {/* <section className="">
         <div className="flex">
           <article
             style={{ backgroundImage: "url(/images/featured-1.jpg)" }}
@@ -45,7 +46,7 @@ export default function Home() {
             </div>
           </article>
         </div>
-      </section>
+      </section> */}
 
       <section className="section">
         <div className="container">

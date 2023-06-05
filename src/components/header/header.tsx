@@ -2,35 +2,37 @@ import Link from "next/link";
 
 export default function Header() {
   return (
-    <section>
-      <header className={`flex`}>
-        <div className="flex">
-          <Link href="/" legacyBehavior>
-            <a>
-              <h1 className="site-logo">E-Shop</h1>
-            </a>
-          </Link>
-          <nav className={``}>
-            <Link href="/products" legacyBehavior>
-              <a>Products</a>
+    <section className={``}>
+      <header >
+        <div className="flex justify-between p-4">
+          <div>
+            <Link href="/" legacyBehavior>
+              <a>
+                <h1 className="site-logo">E-Shop</h1>
+              </a>
             </Link>
-            <a href="#">Inspiration</a>
-            <a href="#">Rooms</a>
-            <button className="site-nav__btn">
-              <p>Account</p>
-            </button>
-          </nav>
-
+          </div>
+          <div className="">
+            <nav className={``}>
+              <Link href="/products" legacyBehavior>
+                <a className="mx-5">Products</a>
+              </Link>
+              <a href="#" className="mx-5">Inspiration</a>
+              <a href="#" className="mx-5">Rooms</a>
+              
+            </nav>
+          </div>
           <div className="site-header__actions">
+            <button className="mx-2">
+                <p>Account</p>
+              </button>
             <button className={``}>
               <form className={`search-form`}>
                 <i className="icon-cancel"></i>
 
-
                 <input
                   type="text"
                   name="search"
-                  
                   placeholder="Enter the product you are looking for"
                 />
               </form>
