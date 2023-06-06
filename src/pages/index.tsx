@@ -108,8 +108,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* <ProductsFeatured /> */}
-      {/* <Footer /> */}
     </Main>
   );
 }
