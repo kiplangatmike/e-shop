@@ -59,7 +59,6 @@ export default function Home() {
           <header className="section__intro">
             <h4>Why should you choose us?</h4>
           </header>
-
           <ul className="shop-data-items">
             <li>
               <i className="icon-shipping"></i>
@@ -71,7 +70,6 @@ export default function Home() {
                 </p>
               </div>
             </li>
-
             <li>
               <i className="icon-payment"></i>
               <div className="data-item__content">
@@ -93,7 +91,6 @@ export default function Home() {
                 </p>
               </div>
             </li>
-
             <li>
               <i className="icon-materials"></i>
               <div className="data-item__content">
@@ -107,7 +104,6 @@ export default function Home() {
           </ul>
         </div>
       </section>
-
     </Main>
   );
 }
