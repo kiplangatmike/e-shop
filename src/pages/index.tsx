@@ -14,7 +14,7 @@ export default function Home() {
       <Why />
       <Selected />
 
-      {/* <section className="">
+      <section className="">
         <div className="flex">
           <article
             style={{ backgroundImage: "url(/images/featured-1.jpg)" }}
@@ -52,7 +52,7 @@ export default function Home() {
             </div>
           </article>
         </div>
-      </section> */}
+      </section>
 
       <section className="section">
         <div className="container">
