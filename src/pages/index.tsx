@@ -13,7 +13,6 @@ export default function Home() {
       <NewArrivals />
       <Why />
       <Selected />
-
       <section className="">
         <div className="flex">
           <article
@@ -53,7 +52,6 @@ export default function Home() {
           </article>
         </div>
       </section>
-
       <section className="section">
         <div className="container">
           <header className="section__intro">
