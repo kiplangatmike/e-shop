@@ -67,8 +67,10 @@ export default function Home() {
                   USPS First Class Mail.
                 </p>
               </div>
+
             </li>
             <li>
+            
               <i className="icon-payment"></i>
               <div className="data-item__content">
                 <h4>Easy Payments</h4>
