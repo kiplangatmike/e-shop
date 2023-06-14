@@ -91,7 +91,7 @@ export default function Home() {
                 </p>
               </div>
             </li>
-            
+
             <li>
               <i className="icon-materials"></i>
               <div className="data-item__content">
@@ -100,6 +100,7 @@ export default function Home() {
                   Designed to last, each of our products has been crafted with
                   the finest materials.
                 </p>
+                
               </div>
             </li>
           </ul>
