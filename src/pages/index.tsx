@@ -100,11 +100,13 @@ export default function Home() {
                   Designed to last, each of our products has been crafted with
                   the finest materials.
                 </p>
-                
+
               </div>
             </li>
           </ul>
         </div>
+
+        
       </section>
     </Main>
   );
