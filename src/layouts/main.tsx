@@ -14,14 +14,14 @@ export default function Main ({ children, title = 'Next.js Ecommerce' }: LayoutT
   const pathname = router.pathname;
 
   return (
-    <div className="">
+    <div className="w-[1440px] mx-auto items-center">
       <Head>
         <title>{ title }</title>
       </Head>
 
       <Header />
 
-      <main className={''}>
+      <main className={'max-w-[1200px]'}>
         { children }
       </main>
     </div>

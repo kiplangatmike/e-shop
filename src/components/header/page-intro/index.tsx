@@ -8,9 +8,9 @@ import SwiperCore, {
 } from "swiper";
 export default function PageIntro() {
   return (
-    <section>
+    <section className="items-center">
       <Swiper
-        className="w-full overflow-x-auto relative"
+        className="mx-auto max-w-[1440px] overflow-x-auto relative"
         loop={true}
         autoplay={{ delay: 2000, disableOnInteraction: false }}
       >
@@ -20,31 +20,25 @@ export default function PageIntro() {
             style={{ backgroundImage: "url('images/slide-1.jpg')" }}
           >
             <div className="relative ">
-              <div className="relative justify-center mt-auto mb-40">
+              <div className="relative justify-center mt-auto mb-50 ml-10">
                 <h2 className="text-white text-5xl align-bottom justify-center pl-3">
                   Summer Sales
                 </h2>
               </div>
             </div>
-          </div>
-        </SwiperSlide>
-        {/* <SwiperSlide className="w-64 flex-shrink-0 p-4">
-          <div
-            className="bg-cover bg-center bg-no-repeat h-[80vh] items-center flex"
-            style={{ backgroundImage: "url('images/slide-1.jpg')" }}
-          >
-            <div className="justify-center">
-              <h2 className="text-white text-5xl align-bottom justify-center pl-3">
-                Summer Sale
-              </h2>
-            </div>
-          </div>
-        </SwiperSlide> */}
-      </Swiper>
-      <div className="absolute z-50 bg-white -mt-[170px] ml-4 rounded-tr-[80px] p-10 border border-2 border-black">
+          </div> <div className="absolute z-50 bg-white bottom-0  left-0 rounded-tr-[80px] p-10">
         <div>
-            <ul className="flex z-50">
-                <li className="z-50">
+            <ul className="flex z-50 gap-10 text-[#333333]">
+                <li className="z-50 flex">
+                    <i>
+                        <img src="images/icon-1.png" alt="icon" />
+                    </i>
+                    <div>
+                        <h4 className="text-[14px]">Free Shipping</h4>
+                        <p>On purchase over $199</p>
+                    </div>
+                </li>
+                <li className="flex">
                     <i>
                         <img src="images/icon-1.png" alt="icon" />
                     </i>
@@ -53,16 +47,7 @@ export default function PageIntro() {
                         <p>On purchase over $199</p>
                     </div>
                 </li>
-                <li>
-                    <i>
-                        <img src="images/icon-1.png" alt="icon" />
-                    </i>
-                    <div>
-                        <h4>Free Shipping</h4>
-                        <p>On purchase over $199</p>
-                    </div>
-                </li>
-                <li>
+                <li className="flex">
                     <i>
                         <img src="images/icon-1.png" alt="icon" />
                     </i>
@@ -74,6 +59,9 @@ export default function PageIntro() {
             </ul>
         </div>
       </div>
+        </SwiperSlide>
+      </Swiper>
+     
     </section>
   );
 }
