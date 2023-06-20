@@ -6,6 +6,7 @@ import NewArrivals from "@/components/header/newArrivals";
 import Why from "@/components/why";
 import Selected from "@/components/selectedForYou";
 import Subscribe from "@/components/subscribe";
+import Footer from "@/components/footer";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <Why />
       <Selected />
       <Subscribe />
+      <Footer />
     </Main>
   );
 }

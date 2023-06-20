@@ -1,4 +1,7 @@
 import { Swiper, SwiperSlide } from "swiper/react";
+import { FaShippingFast } from "react-icons/fa";
+import { AiOutlineSafety } from "react-icons/ai";
+
 import SwiperCore, {
   Navigation,
   Pagination,
@@ -26,42 +29,42 @@ export default function PageIntro() {
                 </h2>
               </div>
             </div>
-          </div> <div className="absolute z-50 bg-white bottom-0  left-0 rounded-tr-[80px] p-10">
-        <div>
-            <ul className="flex z-50 gap-10 text-[#333333]">
-                <li className="z-50 flex">
-                    <i>
-                        <img src="images/icon-1.png" alt="icon" />
-                    </i>
-                    <div>
-                        <h4 className="text-[14px]">Free Shipping</h4>
-                        <p>On purchase over $199</p>
-                    </div>
+          </div>{" "}
+          <div className="absolute z-50 bg-white bottom-0  left-0 rounded-tr-[80px] p-10">
+            <div>
+              <ul className="flex z-50 gap-10 text-[#333333]">
+                <li className="z-50 flex gap-3">
+                  <div className="bg-[#fff3df] p-2 rounded-md">
+                    <FaShippingFast size={25} />
+                  </div>
+                  <div>
+                    <h4 className="text-[14px]">Free Shipping</h4>
+                    <p>On purchase over $199</p>
+                  </div>
                 </li>
-                <li className="flex">
-                    <i>
-                        <img src="images/icon-1.png" alt="icon" />
-                    </i>
-                    <div>
-                        <h4>Free Shipping</h4>
-                        <p>On purchase over $199</p>
-                    </div>
+                <li className="flex gap-3">
+                <div className="bg-[#fff3df] p-2 rounded-md">
+                  <FaShippingFast size={25} />
+                  </div>
+                  <div>
+                    <h4>Free Shipping</h4>
+                    <p>On purchase over $199</p>
+                  </div>
                 </li>
-                <li className="flex">
-                    <i>
-                        <img src="images/icon-1.png" alt="icon" />
-                    </i>
-                    <div>
-                        <h4>Free Shipping</h4>
-                        <p>On purchase over $199</p>
-                    </div>
+                <li className="flex gap-3">
+                <div className="bg-[#fff3df] p-2 rounded-md">
+                  <AiOutlineSafety size={25} />
+                  </div>
+                  <div>
+                    <h4>Free Shipping</h4>
+                    <p>On purchase over $199</p>
+                  </div>
                 </li>
-            </ul>
-        </div>
-      </div>
+              </ul>
+            </div>
+          </div>
         </SwiperSlide>
       </Swiper>
-     
     </section>
   );
 }

@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Header() {
   return (
-    <section className={`fixed z-50 bg-white w-full`}>
+    <section className={`fixed z-50 bg-transparent w-full`}>
       <header >
         <div className="flex justify-between p-4">
           <div>
