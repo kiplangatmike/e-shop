@@ -27,6 +27,7 @@ export default function Subscribe() {
             className="rounded-3xl px-4 outline-none"
             placeholder="Enter Email"
           />
+          
           <button className=" px-3 py-2 right-24 bg-[#fbb03b] rounded-3xl text-[15px]">
             SUBSCRIBE
           </button>
