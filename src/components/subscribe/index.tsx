@@ -13,6 +13,7 @@ export default function Subscribe() {
         ></Image>
         <div className="absolute inset-0 bg-black opacity-50"></div>
       </div>
+      
       <div className="flex ">
         <div className="absolute top-1/3 left-40 text-[30px]">
           <p className="font-bold text-white">
@@ -27,7 +28,7 @@ export default function Subscribe() {
             className="rounded-3xl px-4 outline-none"
             placeholder="Enter Email"
           />
-          
+
           <button className=" px-3 py-2 right-24 bg-[#fbb03b] rounded-3xl text-[15px]">
             SUBSCRIBE
           </button>

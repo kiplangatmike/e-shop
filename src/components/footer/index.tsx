@@ -47,6 +47,7 @@ export default function Footer() {
               <a href="#">Site feedback</a>
             </li>
           </ul>
+          
           <ul >
             <li className="font-semibold"> Privacy & Terms</li>
             <li>
