@@ -23,14 +23,14 @@ export default function PageIntro() {
             style={{ backgroundImage: "url('images/slide-1.jpg')" }}
           >
             <div className="relative ">
-              <div className="relative justify-center mt-auto mb-50 ml-10">
+              <div className="relative justify-center mt-auto -mb-[80px] ml-10">
                 <h2 className="text-white text-5xl align-bottom justify-center pl-3">
-                  Summer Sales
+                  African Summer Sales
                 </h2>
               </div>
             </div>
           </div>{" "}
-          <div className="absolute z-50 bg-white bottom-0  left-0 rounded-tr-[80px] p-10">
+          <div className="absolute z-50 bg-white bottom-0  right-0 rounded-tl-[30px] p-10">
             <div>
               <ul className="flex z-50 gap-10 text-[#333333]">
                 <li className="z-50 flex gap-3">
@@ -38,8 +38,8 @@ export default function PageIntro() {
                     <FaShippingFast size={25} />
                   </div>
                   <div>
-                    <h4 className="text-[14px]">Free Shipping</h4>
-                    <p>On purchase over $199</p>
+                    <h4 className="text-[14px] font-semibold">Free Shipping</h4>
+                    <p className="text-[12px]">On purchase over Rwf 20,000</p>
                   </div>
                 </li>
                 <li className="flex gap-3">
@@ -47,8 +47,8 @@ export default function PageIntro() {
                   <FaShippingFast size={25} />
                   </div>
                   <div>
-                    <h4>Free Shipping</h4>
-                    <p>On purchase over $199</p>
+                    <h4 className="text-[14px] font-semibold">99% Satisfied Customers</h4>
+                    <p className="text-[12px]">Our clients&apos; opinions speak for themselves</p>
                   </div>
                 </li>
                 <li className="flex gap-3">
@@ -56,8 +56,8 @@ export default function PageIntro() {
                   <AiOutlineSafety size={25} />
                   </div>
                   <div>
-                    <h4>Free Shipping</h4>
-                    <p>On purchase over $199</p>
+                    <h4 className="text-[14px] font-semibold">Originality Guaranteed</h4>
+                    <p className="text-[12px]">30 days warranty for each product from our store</p>
                   </div>
                 </li>
               </ul>
