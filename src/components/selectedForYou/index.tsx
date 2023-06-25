@@ -22,14 +22,14 @@ export default function Selected() {
     <section>
       <div>
         <div>
-          <h1 className="text-[29px]">Selected just for you</h1>
+          <h1 className="mx-5 my-10 text-[29px] text-[#333333]">Selected just for you</h1>
         </div>
         <div className="flex ">
           {images.map((image, index) => (
-            <div className="relative w-[263px] mx-8" key={index}>
+            <div className="relative w-[263px] mx-5" key={index}>
               <Image src={image.image} alt="t-shirt" className="xxxxxx"></Image>
-              <p>{image.title}</p>
-              <p>{image.price}</p>
+              <p className='text-[16px] my-[9px]'>{image.title}</p>
+              <p className='text-[20px]'>{image.price}</p>
               <div className='absolute top-3 right-3'><AiOutlineHeart size={25} /></div>
             </div>
           ))}

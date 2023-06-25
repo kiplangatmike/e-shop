@@ -3,16 +3,16 @@ export default function Footer() {
     <section>
       <div className="flex justify-between p-4">
         <div>
-          <p>E-shop</p>
-          <p>
+          <p className="text-[33px]">E-shop</p>
+          <p className="text-[13px]">
             House My Brand designs clothing for the young, the old & everyone in
             <br />
             between – but most importantly, for the fashionable
           </p>
         </div>
         <div className="flex gap-4">
-          <ul>
-            <li className="font-semibold">Shopping online</li>
+          <ul className="text-[14px]">
+            <li className="font-semibold text-[14px]">Shopping online</li>
             <li>
               <a href="#">Order Status</a>
             </li>
@@ -29,7 +29,7 @@ export default function Footer() {
               <a href="#">Contact Us</a>
             </li>
           </ul>
-          <ul>
+          <ul className="text-[14px]">
             <li className="font-semibold">Information</li>
             <li>
               <a href="#">Gift Cards</a>
@@ -47,8 +47,8 @@ export default function Footer() {
               <a href="#">Site feedback</a>
             </li>
           </ul>
-          
-          <ul >
+
+          <ul className="text-[14px]">
             <li className="font-semibold"> Privacy & Terms</li>
             <li>
               <a href="#">Privacy Policy</a>
