@@ -17,7 +17,7 @@ export default function PageIntro() {
         loop={true}
         autoplay={{ delay: 2000, disableOnInteraction: false }}
       >
-        <SwiperSlide className="w-64 flex-shrink-0 p-4">
+        <SwiperSlide className="w-64 flex-shrink-0">
           <div
             className="bg-cover bg-center bg-no-repeat h-[80vh] items-center flex "
             style={{ backgroundImage: "url('images/slide-1.jpg')" }}

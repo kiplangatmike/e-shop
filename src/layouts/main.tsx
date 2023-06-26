@@ -1,7 +1,6 @@
 import Header from '@/components/header/header';
 import Head from 'next/head';
-// import Header from '@/components/header';
-import { useRouter } from 'next/navigation';
+import { useRouter } from 'next/router';
 import React from 'react';
 
 type LayoutType = {

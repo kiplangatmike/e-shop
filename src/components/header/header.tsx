@@ -1,9 +1,19 @@
+import React, { useState } from "react";
 import Link from "next/link";
+import {
+  AiOutlineShoppingCart,
+  AiOutlineUser,
+  AiOutlineSearch,
+  AiOutlineClose,
+} from "react-icons/ai";
 
 export default function Header() {
+  const [searchIsOpen, setSearchIsOpen] = useState(false);
   return (
-    <section className={`fixed z-50 bg-white w-full`}>
-      <header >
+    <section
+      className={`fixed z-50 bg-transparent w-full  bg-black/60 text-white `}
+    >
+      <header>
         <div className="flex justify-between p-4">
           <div>
             <Link href="/" legacyBehavior>
@@ -17,16 +27,16 @@ export default function Header() {
               <Link href="/products" legacyBehavior>
                 <a className="mx-5">Products</a>
               </Link>
-              <a href="#" className="mx-5">Inspiration</a>
-              <a href="#" className="mx-5">Rooms</a>
-              
+              <a href="#" className="mx-5">
+                Inspiration
+              </a>
+              <a href="#" className="mx-5">
+                Rooms
+              </a>
             </nav>
           </div>
-          <div className="site-header__actions">
-            <button className="mx-2">
-                <p>Account</p>
-              </button>
-            <button className={``}>
+          <div className="flex gap-3">
+            {searchIsOpen && (
               <form className={`search-form`}>
                 <i className="icon-cancel"></i>
 
@@ -34,20 +44,29 @@ export default function Header() {
                   type="text"
                   name="search"
                   placeholder="Enter the product you are looking for"
+                  className="text-[#333333] outline-none rounded-md px-2 py-1"
                 />
               </form>
-              <i className="icon-search"></i>
-            </button>
+            )}
+            <div>
+              {!searchIsOpen ? (
+                <AiOutlineSearch
+                  onClick={() => setSearchIsOpen(true)}
+                  size={22}
+                />
+              ) : (
+                <AiOutlineClose
+                  onClick={() => setSearchIsOpen(false)}
+                  size={22}
+                />
+              )}
+            </div>
+
             <Link href="/cart" legacyBehavior>
-              <button className="btn-cart">
-                <i className="icon-cart"></i>
-                items
-              </button>
+              <AiOutlineShoppingCart size={22} />
             </Link>
             <Link href="/login" legacyBehavior>
-              <button className="site-header__btn-avatar">
-                <i className="icon-avatar"></i>
-              </button>
+              <AiOutlineUser size={22} />
             </Link>
             <button className="site-header__btn-menu">
               <i className="btn-hamburger">
