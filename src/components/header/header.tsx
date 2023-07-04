@@ -65,14 +65,16 @@ export default function Header() {
             <Link href="/cart" legacyBehavior>
               <AiOutlineShoppingCart size={22} />
             </Link>
-            <Link href="/login" legacyBehavior>
-              <AiOutlineUser size={22} />
-            </Link>
-            <button className="site-header__btn-menu">
+            <div className="cursor-pointer">
+              <Link href="/login" legacyBehavior>
+                <AiOutlineUser size={22} />
+              </Link>
+            </div>
+            {/* <button className="site-header__btn-menu">
               <i className="btn-hamburger">
                 <span></span>
               </i>
-            </button>
+            </button> */}
           </div>
         </div>
       </header>
