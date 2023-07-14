@@ -18,7 +18,9 @@ export default function Login() {
           <Link href="#">Forgot password?</Link>
         </div>
         <div>
+
           <button>Facebook</button>
+          
           <button>Gmail</button>
         </div>
       </section>
