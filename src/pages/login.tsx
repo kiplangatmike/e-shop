@@ -9,11 +9,11 @@ export default function Login() {
         <p className="text-red">Login</p>
         <p>Login to your account</p>
         <div className="flex flex-col">
-          <input type="text" placeholder="email" value=""/>
-          <input type="text" placeholder="password" value=""/>
+          <input type="text" placeholder="email" value="" />
+          <input type="text" placeholder="password" value="" />
         </div>
         <div>
-          <input type="checkbox" id="myCheckbox"/>
+          <input type="checkbox" id="myCheckbox" />
           <label htmlFor="myCheckbox">Keep me signed in</label>
           <Link href="#">Forgot password?</Link>
         </div>
