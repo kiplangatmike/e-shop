@@ -19,8 +19,10 @@ export default function Login() {
         </div>
         <div>
           <button>Facebook</button>
+
           <button>Gmail</button>
         </div>
+        
       </section>
     </Main>
   );
