@@ -7,7 +7,7 @@ export default function Login() {
     <Main>
       <section className="text-center">
         <p className="text-red">Login</p>
-        <p>Login to your account</p>
+        <p>Login to your account?</p>
         <div className="flex flex-col">
           <input type="text" placeholder="email" value="" />
           <input type="text" placeholder="password" value="" />
