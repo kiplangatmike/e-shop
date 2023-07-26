@@ -5,7 +5,9 @@ import Link from "next/link";
 export default function Login() {
   return (
     <Main>
+
       <section className="text-center">
+      
         <p className="text-red">Login</p>
         <p>Login to your account?</p>
         <div className="flex flex-col">
