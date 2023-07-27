@@ -14,15 +14,18 @@ export default function Login() {
           <input type="text" placeholder="email" value="" />
           <input type="text" placeholder="password" value="" />
         </div>
+
         <div>
           <input type="checkbox" id="myCheckbox" />
           <label htmlFor="myCheckbox">Keep me signed in</label>
           <Link href="#">Forgot password?</Link>
         </div>
+
         <div>
           <button>Facebook</button>
           <button>Gmail</button>
         </div>
+        
       </section>
     </Main>
   );
