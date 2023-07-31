@@ -15,9 +15,7 @@ export default function Login() {
         <div>
           <input type="checkbox" id="myCheckbox" />
           <label htmlFor="myCheckbox">Keep me signed in</label>
-
           <Link href="#">Forgot password?</Link>
-          
         </div>
         <div>
           <button>Facebook</button>
